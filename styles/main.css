@@ -1,0 +1,32 @@
+#tick2{
+    grid-column: 1/3;
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: 200px;
+    position: relative;
+}
+#create2{
+    font-size: 24px;
+    font-weight: bold;
+}
+#check2{
+    font-size: 24px;
+    font-weight: bold;
+}
+#menu{
+    grid-column: 1/3;
+    grid-row: 3;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+#top {
+    grid-column: 1/4;
+    grid-row: 1;
+    display: flex;
+    flex-direction: row;
+    background-color: grey;
+    height: 120px;
+}
